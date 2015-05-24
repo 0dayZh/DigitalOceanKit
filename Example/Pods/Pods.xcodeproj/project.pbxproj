@@ -15,14 +15,36 @@
 		494EAED12FA99A47B5BFDAEB /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7A2ECFEA5561503A665078 /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		592A9017DA399688B8288598 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CCBB86EAA1202E80594F7F /* Pods-DigitalOceanKit_Example-DigitalOceanKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		762E4F6056F53CD2BFF6C0D4 /* Pods-Tests-DigitalOceanKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80ACC2D754B7B357D37288FC /* Pods-Tests-DigitalOceanKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7678EA201B120A86006BB5F6 /* DOApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA1E1B120A86006BB5F6 /* DOApiManager.h */; };
+		7678EA211B120A86006BB5F6 /* DOApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678EA1F1B120A86006BB5F6 /* DOApiManager.m */; };
+		7678EA261B120BA0006BB5F6 /* DOApiManager+Account.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA241B120BA0006BB5F6 /* DOApiManager+Account.h */; };
+		7678EA271B120BA0006BB5F6 /* DOApiManager+Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678EA251B120BA0006BB5F6 /* DOApiManager+Account.m */; };
+		7678EA2A1B120BB5006BB5F6 /* DOApiManager+Actions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA281B120BB5006BB5F6 /* DOApiManager+Actions.h */; };
+		7678EA2B1B120BB5006BB5F6 /* DOApiManager+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678EA291B120BB5006BB5F6 /* DOApiManager+Actions.m */; };
+		7678EA2E1B120BC0006BB5F6 /* DOApiManager+Domains.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA2C1B120BC0006BB5F6 /* DOApiManager+Domains.h */; };
+		7678EA2F1B120BC0006BB5F6 /* DOApiManager+Domains.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678EA2D1B120BC0006BB5F6 /* DOApiManager+Domains.m */; };
+		7678EA321B120BCD006BB5F6 /* DOApiManager+DomainRecords.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA301B120BCD006BB5F6 /* DOApiManager+DomainRecords.h */; };
+		7678EA331B120BCD006BB5F6 /* DOApiManager+DomainRecords.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678EA311B120BCD006BB5F6 /* DOApiManager+DomainRecords.m */; };
+		7678EA361B120BD5006BB5F6 /* DOApiManager+Droplets.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA341B120BD5006BB5F6 /* DOApiManager+Droplets.h */; };
+		7678EA371B120BD5006BB5F6 /* DOApiManager+Droplets.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678EA351B120BD5006BB5F6 /* DOApiManager+Droplets.m */; };
+		7678EA3A1B120BDD006BB5F6 /* DOApiManager+DropletActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA381B120BDD006BB5F6 /* DOApiManager+DropletActions.h */; };
+		7678EA3B1B120BDD006BB5F6 /* DOApiManager+DropletActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678EA391B120BDD006BB5F6 /* DOApiManager+DropletActions.m */; };
+		7678EA3E1B120BE4006BB5F6 /* DOApiManager+Images.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA3C1B120BE4006BB5F6 /* DOApiManager+Images.h */; };
+		7678EA3F1B120BE4006BB5F6 /* DOApiManager+Images.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678EA3D1B120BE4006BB5F6 /* DOApiManager+Images.m */; };
+		7678EA421B120BEC006BB5F6 /* DOApiManager+ImageActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA401B120BEC006BB5F6 /* DOApiManager+ImageActions.h */; };
+		7678EA431B120BEC006BB5F6 /* DOApiManager+ImageActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678EA411B120BEC006BB5F6 /* DOApiManager+ImageActions.m */; };
+		7678EA461B120BF3006BB5F6 /* DOApiManager+SSHKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA441B120BF3006BB5F6 /* DOApiManager+SSHKeys.h */; };
+		7678EA471B120BF3006BB5F6 /* DOApiManager+SSHKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678EA451B120BF3006BB5F6 /* DOApiManager+SSHKeys.m */; };
+		7678EA4A1B120BFB006BB5F6 /* DOApiManager+Regions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA481B120BFB006BB5F6 /* DOApiManager+Regions.h */; };
+		7678EA4B1B120BFB006BB5F6 /* DOApiManager+Regions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678EA491B120BFB006BB5F6 /* DOApiManager+Regions.m */; };
+		7678EA4E1B120C03006BB5F6 /* DOApiManager+Sizes.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA4C1B120C03006BB5F6 /* DOApiManager+Sizes.h */; };
+		7678EA4F1B120C03006BB5F6 /* DOApiManager+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678EA4D1B120C03006BB5F6 /* DOApiManager+Sizes.m */; };
 		82326BAC50D52DE394671ABA /* Pods-DigitalOceanKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1AD4B56CE2AE6623542D68 /* Pods-DigitalOceanKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AA00294452C11E3FBE2E9CF /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B747394F674565B4B54CE152 /* Pods-Tests-dummy.m */; };
-		8C6C8367151AC58CE306639C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 939699D9C8997842972E5333 /* ReplaceMe.m */; };
 		96B232848EEF971911CBC98D /* Pods-DigitalOceanKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24F3C13F4F858E7957E0CF /* Pods-DigitalOceanKit_Example-dummy.m */; };
 		99D9EE27DC7E962346B8F021 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE10BB48908637552C3947A /* Foundation.framework */; };
 		9F10656078485B208DF32F40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE10BB48908637552C3947A /* Foundation.framework */; };
 		CFBD499823DBB324A9C3C335 /* Pods-Tests-DigitalOceanKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94343998797E35EA08F10912 /* Pods-Tests-DigitalOceanKit-dummy.m */; };
-		D42E2B021B037E5F75A39E68 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 939699D9C8997842972E5333 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,11 +96,35 @@
 		5AD0F6D7F088814DE155C6B7 /* Pods-DigitalOceanKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DigitalOceanKit_Example.modulemap"; sourceTree = "<group>"; };
 		6AE10BB48908637552C3947A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75C574A0F7A465CB057294DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-Tests-DigitalOceanKit/Info.plist"; sourceTree = "<group>"; };
+		7678EA1E1B120A86006BB5F6 /* DOApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOApiManager.h; sourceTree = "<group>"; };
+		7678EA1F1B120A86006BB5F6 /* DOApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOApiManager.m; sourceTree = "<group>"; };
+		7678EA231B120B02006BB5F6 /* DigitalOceanKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DigitalOceanKit.h; sourceTree = "<group>"; };
+		7678EA241B120BA0006BB5F6 /* DOApiManager+Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOApiManager+Account.h"; sourceTree = "<group>"; };
+		7678EA251B120BA0006BB5F6 /* DOApiManager+Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOApiManager+Account.m"; sourceTree = "<group>"; };
+		7678EA281B120BB5006BB5F6 /* DOApiManager+Actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOApiManager+Actions.h"; sourceTree = "<group>"; };
+		7678EA291B120BB5006BB5F6 /* DOApiManager+Actions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOApiManager+Actions.m"; sourceTree = "<group>"; };
+		7678EA2C1B120BC0006BB5F6 /* DOApiManager+Domains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOApiManager+Domains.h"; sourceTree = "<group>"; };
+		7678EA2D1B120BC0006BB5F6 /* DOApiManager+Domains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOApiManager+Domains.m"; sourceTree = "<group>"; };
+		7678EA301B120BCD006BB5F6 /* DOApiManager+DomainRecords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOApiManager+DomainRecords.h"; sourceTree = "<group>"; };
+		7678EA311B120BCD006BB5F6 /* DOApiManager+DomainRecords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOApiManager+DomainRecords.m"; sourceTree = "<group>"; };
+		7678EA341B120BD5006BB5F6 /* DOApiManager+Droplets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOApiManager+Droplets.h"; sourceTree = "<group>"; };
+		7678EA351B120BD5006BB5F6 /* DOApiManager+Droplets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOApiManager+Droplets.m"; sourceTree = "<group>"; };
+		7678EA381B120BDD006BB5F6 /* DOApiManager+DropletActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOApiManager+DropletActions.h"; sourceTree = "<group>"; };
+		7678EA391B120BDD006BB5F6 /* DOApiManager+DropletActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOApiManager+DropletActions.m"; sourceTree = "<group>"; };
+		7678EA3C1B120BE4006BB5F6 /* DOApiManager+Images.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOApiManager+Images.h"; sourceTree = "<group>"; };
+		7678EA3D1B120BE4006BB5F6 /* DOApiManager+Images.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOApiManager+Images.m"; sourceTree = "<group>"; };
+		7678EA401B120BEC006BB5F6 /* DOApiManager+ImageActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOApiManager+ImageActions.h"; sourceTree = "<group>"; };
+		7678EA411B120BEC006BB5F6 /* DOApiManager+ImageActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOApiManager+ImageActions.m"; sourceTree = "<group>"; };
+		7678EA441B120BF3006BB5F6 /* DOApiManager+SSHKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOApiManager+SSHKeys.h"; sourceTree = "<group>"; };
+		7678EA451B120BF3006BB5F6 /* DOApiManager+SSHKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOApiManager+SSHKeys.m"; sourceTree = "<group>"; };
+		7678EA481B120BFB006BB5F6 /* DOApiManager+Regions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOApiManager+Regions.h"; sourceTree = "<group>"; };
+		7678EA491B120BFB006BB5F6 /* DOApiManager+Regions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOApiManager+Regions.m"; sourceTree = "<group>"; };
+		7678EA4C1B120C03006BB5F6 /* DOApiManager+Sizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOApiManager+Sizes.h"; sourceTree = "<group>"; };
+		7678EA4D1B120C03006BB5F6 /* DOApiManager+Sizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOApiManager+Sizes.m"; sourceTree = "<group>"; };
 		7F458473641CA974D6251E32 /* Pods-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests.modulemap"; sourceTree = "<group>"; };
 		80ACC2D754B7B357D37288FC /* Pods-Tests-DigitalOceanKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DigitalOceanKit-umbrella.h"; path = "../Pods-Tests-DigitalOceanKit/Pods-Tests-DigitalOceanKit-umbrella.h"; sourceTree = "<group>"; };
 		856CC6ECA9CF05BA95226CF3 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		86746746B0B03DF9C5FC806A /* Pods-DigitalOceanKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DigitalOceanKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		939699D9C8997842972E5333 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		94343998797E35EA08F10912 /* Pods-Tests-DigitalOceanKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-DigitalOceanKit-dummy.m"; path = "../Pods-Tests-DigitalOceanKit/Pods-Tests-DigitalOceanKit-dummy.m"; sourceTree = "<group>"; };
 		9A24F3C13F4F858E7957E0CF /* Pods-DigitalOceanKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DigitalOceanKit_Example-dummy.m"; sourceTree = "<group>"; };
 		9B7E0859AC8D06EFB4E20780 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DigitalOceanKit_Example-DigitalOceanKit-Private.xcconfig"; sourceTree = "<group>"; };
@@ -173,7 +219,8 @@
 		19B55CBC13E772AD7ACC7DE3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				939699D9C8997842972E5333 /* ReplaceMe.m */,
+				7678EA231B120B02006BB5F6 /* DigitalOceanKit.h */,
+				7678EA221B120ACF006BB5F6 /* API */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -214,6 +261,37 @@
 				19B55CBC13E772AD7ACC7DE3 /* Classes */,
 			);
 			path = Pod;
+			sourceTree = "<group>";
+		};
+		7678EA221B120ACF006BB5F6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7678EA1E1B120A86006BB5F6 /* DOApiManager.h */,
+				7678EA1F1B120A86006BB5F6 /* DOApiManager.m */,
+				7678EA241B120BA0006BB5F6 /* DOApiManager+Account.h */,
+				7678EA251B120BA0006BB5F6 /* DOApiManager+Account.m */,
+				7678EA281B120BB5006BB5F6 /* DOApiManager+Actions.h */,
+				7678EA291B120BB5006BB5F6 /* DOApiManager+Actions.m */,
+				7678EA301B120BCD006BB5F6 /* DOApiManager+DomainRecords.h */,
+				7678EA311B120BCD006BB5F6 /* DOApiManager+DomainRecords.m */,
+				7678EA2C1B120BC0006BB5F6 /* DOApiManager+Domains.h */,
+				7678EA2D1B120BC0006BB5F6 /* DOApiManager+Domains.m */,
+				7678EA381B120BDD006BB5F6 /* DOApiManager+DropletActions.h */,
+				7678EA391B120BDD006BB5F6 /* DOApiManager+DropletActions.m */,
+				7678EA341B120BD5006BB5F6 /* DOApiManager+Droplets.h */,
+				7678EA351B120BD5006BB5F6 /* DOApiManager+Droplets.m */,
+				7678EA401B120BEC006BB5F6 /* DOApiManager+ImageActions.h */,
+				7678EA411B120BEC006BB5F6 /* DOApiManager+ImageActions.m */,
+				7678EA3C1B120BE4006BB5F6 /* DOApiManager+Images.h */,
+				7678EA3D1B120BE4006BB5F6 /* DOApiManager+Images.m */,
+				7678EA481B120BFB006BB5F6 /* DOApiManager+Regions.h */,
+				7678EA491B120BFB006BB5F6 /* DOApiManager+Regions.m */,
+				7678EA4C1B120C03006BB5F6 /* DOApiManager+Sizes.h */,
+				7678EA4D1B120C03006BB5F6 /* DOApiManager+Sizes.m */,
+				7678EA441B120BF3006BB5F6 /* DOApiManager+SSHKeys.h */,
+				7678EA451B120BF3006BB5F6 /* DOApiManager+SSHKeys.m */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 		7E5E82B45E5EE51F3A97C59D /* iOS */ = {
@@ -320,7 +398,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7678EA461B120BF3006BB5F6 /* DOApiManager+SSHKeys.h in Headers */,
+				7678EA3E1B120BE4006BB5F6 /* DOApiManager+Images.h in Headers */,
+				7678EA4A1B120BFB006BB5F6 /* DOApiManager+Regions.h in Headers */,
+				7678EA2A1B120BB5006BB5F6 /* DOApiManager+Actions.h in Headers */,
+				7678EA3A1B120BDD006BB5F6 /* DOApiManager+DropletActions.h in Headers */,
+				7678EA2E1B120BC0006BB5F6 /* DOApiManager+Domains.h in Headers */,
+				7678EA421B120BEC006BB5F6 /* DOApiManager+ImageActions.h in Headers */,
+				7678EA4E1B120C03006BB5F6 /* DOApiManager+Sizes.h in Headers */,
+				7678EA201B120A86006BB5F6 /* DOApiManager.h in Headers */,
+				7678EA261B120BA0006BB5F6 /* DOApiManager+Account.h in Headers */,
 				82326BAC50D52DE394671ABA /* Pods-DigitalOceanKit_Example-umbrella.h in Headers */,
+				7678EA361B120BD5006BB5F6 /* DOApiManager+Droplets.h in Headers */,
+				7678EA321B120BCD006BB5F6 /* DOApiManager+DomainRecords.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,7 +602,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				297C0895C13C6E58D66CB240 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-dummy.m in Sources */,
-				8C6C8367151AC58CE306639C /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +624,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7678EA3F1B120BE4006BB5F6 /* DOApiManager+Images.m in Sources */,
+				7678EA331B120BCD006BB5F6 /* DOApiManager+DomainRecords.m in Sources */,
 				96B232848EEF971911CBC98D /* Pods-DigitalOceanKit_Example-dummy.m in Sources */,
+				7678EA4B1B120BFB006BB5F6 /* DOApiManager+Regions.m in Sources */,
+				7678EA471B120BF3006BB5F6 /* DOApiManager+SSHKeys.m in Sources */,
+				7678EA4F1B120C03006BB5F6 /* DOApiManager+Sizes.m in Sources */,
+				7678EA371B120BD5006BB5F6 /* DOApiManager+Droplets.m in Sources */,
+				7678EA2F1B120BC0006BB5F6 /* DOApiManager+Domains.m in Sources */,
+				7678EA2B1B120BB5006BB5F6 /* DOApiManager+Actions.m in Sources */,
+				7678EA211B120A86006BB5F6 /* DOApiManager.m in Sources */,
+				7678EA3B1B120BDD006BB5F6 /* DOApiManager+DropletActions.m in Sources */,
+				7678EA271B120BA0006BB5F6 /* DOApiManager+Account.m in Sources */,
+				7678EA431B120BEC006BB5F6 /* DOApiManager+ImageActions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,7 +645,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFBD499823DBB324A9C3C335 /* Pods-Tests-DigitalOceanKit-dummy.m in Sources */,
-				D42E2B021B037E5F75A39E68 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
