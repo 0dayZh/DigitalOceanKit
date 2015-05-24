@@ -39,6 +39,8 @@
 		7678EA4B1B120BFB006BB5F6 /* DOApiManager+Regions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678EA491B120BFB006BB5F6 /* DOApiManager+Regions.m */; };
 		7678EA4E1B120C03006BB5F6 /* DOApiManager+Sizes.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA4C1B120C03006BB5F6 /* DOApiManager+Sizes.h */; };
 		7678EA4F1B120C03006BB5F6 /* DOApiManager+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678EA4D1B120C03006BB5F6 /* DOApiManager+Sizes.m */; };
+		7678EA531B120D36006BB5F6 /* DOAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA511B120D36006BB5F6 /* DOAccount.h */; };
+		7678EA541B120D36006BB5F6 /* DOAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678EA521B120D36006BB5F6 /* DOAccount.m */; };
 		82326BAC50D52DE394671ABA /* Pods-DigitalOceanKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1AD4B56CE2AE6623542D68 /* Pods-DigitalOceanKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AA00294452C11E3FBE2E9CF /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B747394F674565B4B54CE152 /* Pods-Tests-dummy.m */; };
 		96B232848EEF971911CBC98D /* Pods-DigitalOceanKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24F3C13F4F858E7957E0CF /* Pods-DigitalOceanKit_Example-dummy.m */; };
@@ -121,6 +123,8 @@
 		7678EA491B120BFB006BB5F6 /* DOApiManager+Regions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOApiManager+Regions.m"; sourceTree = "<group>"; };
 		7678EA4C1B120C03006BB5F6 /* DOApiManager+Sizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOApiManager+Sizes.h"; sourceTree = "<group>"; };
 		7678EA4D1B120C03006BB5F6 /* DOApiManager+Sizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOApiManager+Sizes.m"; sourceTree = "<group>"; };
+		7678EA511B120D36006BB5F6 /* DOAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOAccount.h; sourceTree = "<group>"; };
+		7678EA521B120D36006BB5F6 /* DOAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOAccount.m; sourceTree = "<group>"; };
 		7F458473641CA974D6251E32 /* Pods-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests.modulemap"; sourceTree = "<group>"; };
 		80ACC2D754B7B357D37288FC /* Pods-Tests-DigitalOceanKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DigitalOceanKit-umbrella.h"; path = "../Pods-Tests-DigitalOceanKit/Pods-Tests-DigitalOceanKit-umbrella.h"; sourceTree = "<group>"; };
 		856CC6ECA9CF05BA95226CF3 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -220,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				7678EA231B120B02006BB5F6 /* DigitalOceanKit.h */,
+				7678EA501B120C7E006BB5F6 /* Modal */,
 				7678EA221B120ACF006BB5F6 /* API */,
 			);
 			path = Classes;
@@ -292,6 +297,15 @@
 				7678EA451B120BF3006BB5F6 /* DOApiManager+SSHKeys.m */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		7678EA501B120C7E006BB5F6 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				7678EA511B120D36006BB5F6 /* DOAccount.h */,
+				7678EA521B120D36006BB5F6 /* DOAccount.m */,
+			);
+			name = Modal;
 			sourceTree = "<group>";
 		};
 		7E5E82B45E5EE51F3A97C59D /* iOS */ = {
@@ -409,6 +423,7 @@
 				7678EA201B120A86006BB5F6 /* DOApiManager.h in Headers */,
 				7678EA261B120BA0006BB5F6 /* DOApiManager+Account.h in Headers */,
 				82326BAC50D52DE394671ABA /* Pods-DigitalOceanKit_Example-umbrella.h in Headers */,
+				7678EA531B120D36006BB5F6 /* DOAccount.h in Headers */,
 				7678EA361B120BD5006BB5F6 /* DOApiManager+Droplets.h in Headers */,
 				7678EA321B120BCD006BB5F6 /* DOApiManager+DomainRecords.h in Headers */,
 			);
@@ -632,6 +647,7 @@
 				7678EA4F1B120C03006BB5F6 /* DOApiManager+Sizes.m in Sources */,
 				7678EA371B120BD5006BB5F6 /* DOApiManager+Droplets.m in Sources */,
 				7678EA2F1B120BC0006BB5F6 /* DOApiManager+Domains.m in Sources */,
+				7678EA541B120D36006BB5F6 /* DOAccount.m in Sources */,
 				7678EA2B1B120BB5006BB5F6 /* DOApiManager+Actions.m in Sources */,
 				7678EA211B120A86006BB5F6 /* DOApiManager.m in Sources */,
 				7678EA3B1B120BDD006BB5F6 /* DOApiManager+DropletActions.m in Sources */,
