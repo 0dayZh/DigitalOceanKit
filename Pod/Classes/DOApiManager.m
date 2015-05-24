@@ -9,7 +9,7 @@
 #import "DOApiManager.h"
 #import <AFNetworking/AFNetworking.h>
 
-#define kDOApiURI   @""
+#define kDOApiURI   @"https://api.digitalocean.com"
 
 @interface DOApiManager ()
 
@@ -19,24 +19,21 @@
 
 @implementation DOApiManager
 
-+ (instancetype)sharedManager {
-    static DOApiManager *s_manager;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        s_manager = [[self alloc] init];
-    });
-    
-    return s_manager;
-}
-
-- (instancetype)init {
+- (instancetype)initWithAccessToken:(NSString *)accessToken {
     self = [super init];
     if (self) {
+        self.accessToken = accessToken;
+        
         self.httpSessionManager = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:kDOApiURI]
                                                            sessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+        [self.httpSessionManager.requestSerializer setValue:[NSString stringWithFormat:@"Bearer %@", accessToken] forHTTPHeaderField:@"Authorization"];
     }
     
     return self;
+}
+
+- (NSString *)apiVersion {
+    return @"v2";
 }
 
 - (NSURLSessionDataTask *)GET:(NSString *)URLString

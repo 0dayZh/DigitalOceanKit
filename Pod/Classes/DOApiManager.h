@@ -7,10 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DOApiDefines.h"
 
 @interface DOApiManager : NSObject
 
-+ (instancetype)sharedManager;
+@property (nonatomic, strong) NSString  *accessToken;
+@property (nonatomic, strong, readonly) NSString  *apiVersion;
+
+- (instancetype)initWithAccessToken:(NSString *)accessToken;
 
 - (NSURLSessionDataTask *)GET:(NSString *)URLString
                    parameters:(id)parameters

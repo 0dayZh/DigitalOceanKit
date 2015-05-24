@@ -73,6 +73,8 @@
 		7266D1877136D2304A50333C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B127973F16450E04D4E51F /* UIKit.framework */; };
 		73855B0020270ABDF52A9D2E /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF8419D55EAFDBD9E10D436 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		748B4A490072C7A36AE18B4E /* DOApiManager+DropletActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 915DB6299E48A57F06472E23 /* DOApiManager+DropletActions.m */; };
+		7678EA591B121EAC006BB5F6 /* DOApiDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA571B121CC0006BB5F6 /* DOApiDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7678EA5A1B121EAE006BB5F6 /* DOApiDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EA571B121CC0006BB5F6 /* DOApiDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78723C68DEC2D8FEA9037E8E /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5306E3BAADFC6F2BF63F59 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A09880DEB63FE7A461EBF74 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF8419D55EAFDBD9E10D436 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A0CFB51E4BCAA9E2E5DD2CA /* DOApiManager+Droplets.m in Sources */ = {isa = PBXBuildFile; fileRef = 7203DB0695BE043BD43F2C4E /* DOApiManager+Droplets.m */; };
@@ -273,6 +275,7 @@
 		7203DB0695BE043BD43F2C4E /* DOApiManager+Droplets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DOApiManager+Droplets.m"; sourceTree = "<group>"; };
 		75F0E9217C3508F24CBA7D23 /* DOApiManager+Actions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DOApiManager+Actions.h"; sourceTree = "<group>"; };
 		762FD82D216E61871421B635 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7678EA571B121CC0006BB5F6 /* DOApiDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOApiDefines.h; sourceTree = "<group>"; };
 		7709180D2E979478487096B8 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		7751FCDB78DF7C768680834C /* DOAccount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DOAccount.h; sourceTree = "<group>"; };
 		78ECF2C16C6245CF2CF9FF3A /* Pods-DigitalOceanKit_Example-DigitalOceanKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DigitalOceanKit_Example-DigitalOceanKit-Private.xcconfig"; sourceTree = "<group>"; };
@@ -478,8 +481,34 @@
 		3D4D3306E6D0909B217882E7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7751FCDB78DF7C768680834C /* DOAccount.h */,
-				17A9E5A2C746EC180A830949 /* DOAccount.m */,
+				8865C7FF2AAF877D77AE5F76 /* DigitalOceanKit.h */,
+				7678EA561B121C52006BB5F6 /* Modal */,
+				7678EA551B121C44006BB5F6 /* API */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4B5171E6B3B7168A2BFF3B07 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9A706D6A34CD5EB524C23C3 /* Pods-DigitalOceanKit_Example */,
+				FE7BE6A5659740A327B53132 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5A486CDE4D438CAFF6F562EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4685DB039E5BB6078257CF1 /* AFNetworking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7678EA551B121C44006BB5F6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7678EA571B121CC0006BB5F6 /* DOApiDefines.h */,
 				581AD1EEDF9FC302289DC941 /* DOApiManager.h */,
 				B2E81A4EACAC9F919E452361 /* DOApiManager.m */,
 				973AFC905D8902A169EECF72 /* DOApiManager+Account.h */,
@@ -504,26 +533,17 @@
 				FF260877605F74EA9E07BA6A /* DOApiManager+SSHKeys.m */,
 				C1A229E65D05CB3A3F94E29C /* DOApiManager+Sizes.h */,
 				9D63DD9B27FD1DFEBAA2BFDA /* DOApiManager+Sizes.m */,
-				8865C7FF2AAF877D77AE5F76 /* DigitalOceanKit.h */,
 			);
-			path = Classes;
+			name = API;
 			sourceTree = "<group>";
 		};
-		4B5171E6B3B7168A2BFF3B07 /* Targets Support Files */ = {
+		7678EA561B121C52006BB5F6 /* Modal */ = {
 			isa = PBXGroup;
 			children = (
-				F9A706D6A34CD5EB524C23C3 /* Pods-DigitalOceanKit_Example */,
-				FE7BE6A5659740A327B53132 /* Pods-Tests */,
+				7751FCDB78DF7C768680834C /* DOAccount.h */,
+				17A9E5A2C746EC180A830949 /* DOAccount.m */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5A486CDE4D438CAFF6F562EF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A4685DB039E5BB6078257CF1 /* AFNetworking */,
-			);
-			name = Pods;
+			name = Modal;
 			sourceTree = "<group>";
 		};
 		77437C35306575E5F4D8E834 /* Support Files */ = {
@@ -820,6 +840,7 @@
 				DB1B1B44B451191F1565BD33 /* DOApiManager.h in Headers */,
 				4B4299826563E1A94E7A3CE1 /* DigitalOceanKit.h in Headers */,
 				165C85F52831492234BE1FA5 /* Pods-Tests-DigitalOceanKit-umbrella.h in Headers */,
+				7678EA5A1B121EAE006BB5F6 /* DOApiDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -842,6 +863,7 @@
 				8D23FD5E605FD1888CE1EDAF /* DOApiManager.h in Headers */,
 				A3C3C1974B9EEE97F12E2829 /* DigitalOceanKit.h in Headers */,
 				556E59B207ABB629252CF5E3 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-umbrella.h in Headers */,
+				7678EA591B121EAC006BB5F6 /* DOApiDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

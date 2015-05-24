@@ -7,6 +7,9 @@
 //
 
 #import "DOViewController.h"
+#import <DigitalOceanKit/DigitalOceanKit.h>
+
+#define kToken  @""
 
 @interface DOViewController ()
 
@@ -17,13 +20,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    DOApiManager *client = [[DOApiManager alloc] initWithAccessToken:kToken];
+    
+    [client getUserInformationWithComplete:^(DOAccount *account, NSError *error) {
+        if (error) {
+            NSLog(@"%@", error);
+        } else {
+            NSLog(@"Got Account: %@", account);
+        }
+    }];
 }
 
 @end

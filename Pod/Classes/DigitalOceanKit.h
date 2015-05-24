@@ -9,6 +9,9 @@
 #ifndef Pods_DigitalOceanKit_h
 #define Pods_DigitalOceanKit_h
 
+#import "DOAccount.h"
+
+#import "DOApiDefines.h"
 #import "DOApiManager.h"
 #import "DOApiManager+Account.h"
 #import "DOApiManager+Actions.h"

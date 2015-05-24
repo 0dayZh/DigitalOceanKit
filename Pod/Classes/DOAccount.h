@@ -15,4 +15,6 @@
 @property (nonatomic, strong) NSString  *uuid;
 @property (nonatomic, assign, getter=isEmailVerified) BOOL      emailVerified;
 
+- (instancetype)initWithJSON:(NSDictionary *)json;
+
 @end

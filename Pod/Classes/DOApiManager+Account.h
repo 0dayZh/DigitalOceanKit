@@ -7,7 +7,10 @@
 //
 
 #import "DOApiManager.h"
+#import "DOAccount.h"
 
 @interface DOApiManager (Account)
+
+- (void)getUserInformationWithComplete:(void (^)(DOAccount *account, NSError *error))completeHandler;
 
 @end
