@@ -1,0 +1,6 @@
+framework module DigitalOceanKit {
+  umbrella header "Pods-DigitalOceanKit_Example-DigitalOceanKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

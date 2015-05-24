@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BC12D3519C8BAADD26B1510 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE10BB48908637552C3947A /* Foundation.framework */; };
+		1DDE7851A00CDDB99B7F5818 /* DigitalOceanKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1277ABFB885813D7DCA00E01 /* DigitalOceanKit.bundle */; };
+		297C0895C13C6E58D66CB240 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C7DC844C1835B92B4E579 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-dummy.m */; };
+		29918B5F4D2DA9299160F134 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE10BB48908637552C3947A /* Foundation.framework */; };
+		3CE0C1339E9C031347E98473 /* DigitalOceanKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB990DD4145D05EAB710BFF8 /* DigitalOceanKit.bundle */; };
+		494EAED12FA99A47B5BFDAEB /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7A2ECFEA5561503A665078 /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		592A9017DA399688B8288598 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CCBB86EAA1202E80594F7F /* Pods-DigitalOceanKit_Example-DigitalOceanKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		762E4F6056F53CD2BFF6C0D4 /* Pods-Tests-DigitalOceanKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80ACC2D754B7B357D37288FC /* Pods-Tests-DigitalOceanKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82326BAC50D52DE394671ABA /* Pods-DigitalOceanKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1AD4B56CE2AE6623542D68 /* Pods-DigitalOceanKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AA00294452C11E3FBE2E9CF /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B747394F674565B4B54CE152 /* Pods-Tests-dummy.m */; };
+		8C6C8367151AC58CE306639C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 939699D9C8997842972E5333 /* ReplaceMe.m */; };
+		96B232848EEF971911CBC98D /* Pods-DigitalOceanKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24F3C13F4F858E7957E0CF /* Pods-DigitalOceanKit_Example-dummy.m */; };
+		99D9EE27DC7E962346B8F021 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE10BB48908637552C3947A /* Foundation.framework */; };
+		9F10656078485B208DF32F40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE10BB48908637552C3947A /* Foundation.framework */; };
+		CFBD499823DBB324A9C3C335 /* Pods-Tests-DigitalOceanKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94343998797E35EA08F10912 /* Pods-Tests-DigitalOceanKit-dummy.m */; };
+		D42E2B021B037E5F75A39E68 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 939699D9C8997842972E5333 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		473D4401B9CF0C5CF843F0AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E37CB380D78A4A5F12C3487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD212B6511AC5C54F1DC4ADB;
+			remoteInfo = "Pods-Tests-DigitalOceanKit-DigitalOceanKit";
+		};
+		5BD0FED81C98227CEA24EFB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E37CB380D78A4A5F12C3487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5764F121CAAC57FFFA346AD6;
+			remoteInfo = "Pods-DigitalOceanKit_Example-DigitalOceanKit-DigitalOceanKit";
+		};
+		B1F504486CDFCC62936DD989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E37CB380D78A4A5F12C3487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 231B0ACDF8A0EA6C24B7FF52;
+			remoteInfo = "Pods-Tests-DigitalOceanKit";
+		};
+		D4E8F6490BAFCE14087F2DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E37CB380D78A4A5F12C3487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34864BD37E5E31DE5EF9AEF9;
+			remoteInfo = "Pods-DigitalOceanKit_Example-DigitalOceanKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AF0529992CEED079D73F9B /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0734CAD1760C2CC412820275 /* Pods-DigitalOceanKit_Example-DigitalOceanKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DigitalOceanKit_Example-DigitalOceanKit.modulemap"; sourceTree = "<group>"; };
+		0BF840E0BF3C37939203C9E0 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1277ABFB885813D7DCA00E01 /* DigitalOceanKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalOceanKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		14803E06C225903C7ED675A4 /* DigitalOceanKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DigitalOceanKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17363A23CB02DC4A6AE45065 /* Pods-Tests-DigitalOceanKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DigitalOceanKit-prefix.pch"; path = "../Pods-Tests-DigitalOceanKit/Pods-Tests-DigitalOceanKit-prefix.pch"; sourceTree = "<group>"; };
+		2F9E23D4BCDC476534DB9950 /* Pods-Tests-DigitalOceanKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DigitalOceanKit.xcconfig"; path = "../Pods-Tests-DigitalOceanKit/Pods-Tests-DigitalOceanKit.xcconfig"; sourceTree = "<group>"; };
+		337B4B4BDBFEA668F13DFDA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AEEB3A4BFCEAD4A73DDC71 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DigitalOceanKit_Example-DigitalOceanKit-prefix.pch"; sourceTree = "<group>"; };
+		349B027FC83078940053D15A /* Pods_DigitalOceanKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalOceanKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3652A111FB3087F120B8DDB1 /* Pods-Tests-DigitalOceanKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-Tests-DigitalOceanKit.modulemap"; path = "../Pods-Tests-DigitalOceanKit/Pods-Tests-DigitalOceanKit.modulemap"; sourceTree = "<group>"; };
+		39CCBB86EAA1202E80594F7F /* Pods-DigitalOceanKit_Example-DigitalOceanKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DigitalOceanKit_Example-DigitalOceanKit-umbrella.h"; sourceTree = "<group>"; };
+		490591BF018DD893436A47AA /* Pods-Tests-DigitalOceanKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DigitalOceanKit-Private.xcconfig"; path = "../Pods-Tests-DigitalOceanKit/Pods-Tests-DigitalOceanKit-Private.xcconfig"; sourceTree = "<group>"; };
+		541AB881E9997213BB6AE9AE /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD0F6D7F088814DE155C6B7 /* Pods-DigitalOceanKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DigitalOceanKit_Example.modulemap"; sourceTree = "<group>"; };
+		6AE10BB48908637552C3947A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75C574A0F7A465CB057294DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-Tests-DigitalOceanKit/Info.plist"; sourceTree = "<group>"; };
+		7F458473641CA974D6251E32 /* Pods-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests.modulemap"; sourceTree = "<group>"; };
+		80ACC2D754B7B357D37288FC /* Pods-Tests-DigitalOceanKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DigitalOceanKit-umbrella.h"; path = "../Pods-Tests-DigitalOceanKit/Pods-Tests-DigitalOceanKit-umbrella.h"; sourceTree = "<group>"; };
+		856CC6ECA9CF05BA95226CF3 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86746746B0B03DF9C5FC806A /* Pods-DigitalOceanKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DigitalOceanKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		939699D9C8997842972E5333 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		94343998797E35EA08F10912 /* Pods-Tests-DigitalOceanKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-DigitalOceanKit-dummy.m"; path = "../Pods-Tests-DigitalOceanKit/Pods-Tests-DigitalOceanKit-dummy.m"; sourceTree = "<group>"; };
+		9A24F3C13F4F858E7957E0CF /* Pods-DigitalOceanKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DigitalOceanKit_Example-dummy.m"; sourceTree = "<group>"; };
+		9B7E0859AC8D06EFB4E20780 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DigitalOceanKit_Example-DigitalOceanKit-Private.xcconfig"; sourceTree = "<group>"; };
+		A1AE5C9E67E1EE0F33798901 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A46CB09982112D70DADA5B4C /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A603D46FD6B31CB17837DC73 /* Pods-DigitalOceanKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DigitalOceanKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE82DDE12175A930F48CD20F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8C211ABC2A3763F4CD5BE7 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		AFD80089EBDB9AD40091E2AC /* Pods-DigitalOceanKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DigitalOceanKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B48C7DC844C1835B92B4E579 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DigitalOceanKit_Example-DigitalOceanKit-dummy.m"; sourceTree = "<group>"; };
+		B6B106A5E33C7E2FAB40A997 /* DigitalOceanKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DigitalOceanKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B747394F674565B4B54CE152 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		BB0AFF79D02339FC5B423A49 /* Pods-DigitalOceanKit_Example-DigitalOceanKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DigitalOceanKit_Example-DigitalOceanKit.xcconfig"; sourceTree = "<group>"; };
+		BB990DD4145D05EAB710BFF8 /* DigitalOceanKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalOceanKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C090722D56D7A0FEF0838667 /* Pods-DigitalOceanKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DigitalOceanKit_Example-resources.sh"; sourceTree = "<group>"; };
+		C0A816A66857F5FB9C72817F /* Pods-DigitalOceanKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DigitalOceanKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBBEA3D067ADDF19EFD81AEE /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		CC1AD4B56CE2AE6623542D68 /* Pods-DigitalOceanKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DigitalOceanKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		CD444FFD901F65CF7B6FF052 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CD7A2ECFEA5561503A665078 /* Pods-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-umbrella.h"; sourceTree = "<group>"; };
+		E7E530E85D3402FEFE26999C /* Pods-DigitalOceanKit_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DigitalOceanKit_Example-environment.h"; sourceTree = "<group>"; };
+		EBF142AF0CC550C1DC066508 /* Pods-DigitalOceanKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DigitalOceanKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F66E51E78AB9CD7EEC35F37C /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C9D7A3C5150CA47EB4FCDC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F10656078485B208DF32F40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400387F51544094E919D0A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7703F1071BA10BEC0C3C9DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FC8D0451282E81EECBFD24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC12D3519C8BAADD26B1510 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C685926AF7D15F70CF9D79F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29918B5F4D2DA9299160F134 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A330BAFADB6C33F1DE039F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D9EE27DC7E962346B8F021 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CCF1ED824A5E6D2E3FD9EC7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5A1BFFAFECE14C0930AA7D9 /* DigitalOceanKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		155F7D9BF2B92BCC42908E1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E5E82B45E5EE51F3A97C59D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19B55CBC13E772AD7ACC7DE3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				939699D9C8997842972E5333 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2A38FB3F22CE040513B11BAD = {
+			isa = PBXGroup;
+			children = (
+				856CC6ECA9CF05BA95226CF3 /* Podfile */,
+				0CCF1ED824A5E6D2E3FD9EC7 /* Development Pods */,
+				155F7D9BF2B92BCC42908E1A /* Frameworks */,
+				A665AC9467CA8D37AAE88DC0 /* Products */,
+				93398898C604721A5D423E63 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		39F682AE2D66E7E2FE9D2F9C /* Pods-DigitalOceanKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				337B4B4BDBFEA668F13DFDA9 /* Info.plist */,
+				5AD0F6D7F088814DE155C6B7 /* Pods-DigitalOceanKit_Example.modulemap */,
+				A603D46FD6B31CB17837DC73 /* Pods-DigitalOceanKit_Example-acknowledgements.markdown */,
+				C0A816A66857F5FB9C72817F /* Pods-DigitalOceanKit_Example-acknowledgements.plist */,
+				9A24F3C13F4F858E7957E0CF /* Pods-DigitalOceanKit_Example-dummy.m */,
+				E7E530E85D3402FEFE26999C /* Pods-DigitalOceanKit_Example-environment.h */,
+				86746746B0B03DF9C5FC806A /* Pods-DigitalOceanKit_Example-frameworks.sh */,
+				C090722D56D7A0FEF0838667 /* Pods-DigitalOceanKit_Example-resources.sh */,
+				CC1AD4B56CE2AE6623542D68 /* Pods-DigitalOceanKit_Example-umbrella.h */,
+				AFD80089EBDB9AD40091E2AC /* Pods-DigitalOceanKit_Example.debug.xcconfig */,
+				EBF142AF0CC550C1DC066508 /* Pods-DigitalOceanKit_Example.release.xcconfig */,
+			);
+			name = "Pods-DigitalOceanKit_Example";
+			path = "Target Support Files/Pods-DigitalOceanKit_Example";
+			sourceTree = "<group>";
+		};
+		6517A49D5D060BE0767E2FAD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				19B55CBC13E772AD7ACC7DE3 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7E5E82B45E5EE51F3A97C59D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6AE10BB48908637552C3947A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		93398898C604721A5D423E63 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39F682AE2D66E7E2FE9D2F9C /* Pods-DigitalOceanKit_Example */,
+				A37ECAA760C74DEC01FBACCF /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9C219F26A11F03C22E7D702D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE82DDE12175A930F48CD20F /* Info.plist */,
+				75C574A0F7A465CB057294DC /* Info.plist */,
+				0734CAD1760C2CC412820275 /* Pods-DigitalOceanKit_Example-DigitalOceanKit.modulemap */,
+				BB0AFF79D02339FC5B423A49 /* Pods-DigitalOceanKit_Example-DigitalOceanKit.xcconfig */,
+				9B7E0859AC8D06EFB4E20780 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-Private.xcconfig */,
+				B48C7DC844C1835B92B4E579 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-dummy.m */,
+				33AEEB3A4BFCEAD4A73DDC71 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-prefix.pch */,
+				39CCBB86EAA1202E80594F7F /* Pods-DigitalOceanKit_Example-DigitalOceanKit-umbrella.h */,
+				3652A111FB3087F120B8DDB1 /* Pods-Tests-DigitalOceanKit.modulemap */,
+				2F9E23D4BCDC476534DB9950 /* Pods-Tests-DigitalOceanKit.xcconfig */,
+				490591BF018DD893436A47AA /* Pods-Tests-DigitalOceanKit-Private.xcconfig */,
+				94343998797E35EA08F10912 /* Pods-Tests-DigitalOceanKit-dummy.m */,
+				17363A23CB02DC4A6AE45065 /* Pods-Tests-DigitalOceanKit-prefix.pch */,
+				80ACC2D754B7B357D37288FC /* Pods-Tests-DigitalOceanKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-DigitalOceanKit_Example-DigitalOceanKit";
+			sourceTree = "<group>";
+		};
+		A37ECAA760C74DEC01FBACCF /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A1AE5C9E67E1EE0F33798901 /* Info.plist */,
+				7F458473641CA974D6251E32 /* Pods-Tests.modulemap */,
+				0BF840E0BF3C37939203C9E0 /* Pods-Tests-acknowledgements.markdown */,
+				A46CB09982112D70DADA5B4C /* Pods-Tests-acknowledgements.plist */,
+				B747394F674565B4B54CE152 /* Pods-Tests-dummy.m */,
+				AE8C211ABC2A3763F4CD5BE7 /* Pods-Tests-environment.h */,
+				00AF0529992CEED079D73F9B /* Pods-Tests-frameworks.sh */,
+				CBBEA3D067ADDF19EFD81AEE /* Pods-Tests-resources.sh */,
+				CD7A2ECFEA5561503A665078 /* Pods-Tests-umbrella.h */,
+				F66E51E78AB9CD7EEC35F37C /* Pods-Tests.debug.xcconfig */,
+				CD444FFD901F65CF7B6FF052 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		A665AC9467CA8D37AAE88DC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1277ABFB885813D7DCA00E01 /* DigitalOceanKit.bundle */,
+				BB990DD4145D05EAB710BFF8 /* DigitalOceanKit.bundle */,
+				14803E06C225903C7ED675A4 /* DigitalOceanKit.framework */,
+				B6B106A5E33C7E2FAB40A997 /* DigitalOceanKit.framework */,
+				349B027FC83078940053D15A /* Pods_DigitalOceanKit_Example.framework */,
+				541AB881E9997213BB6AE9AE /* Pods_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5A1BFFAFECE14C0930AA7D9 /* DigitalOceanKit */ = {
+			isa = PBXGroup;
+			children = (
+				6517A49D5D060BE0767E2FAD /* Pod */,
+				9C219F26A11F03C22E7D702D /* Support Files */,
+			);
+			name = DigitalOceanKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		736FE215C84831E13A85A9A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494EAED12FA99A47B5BFDAEB /* Pods-Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4973360A3EE4E746676EBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762E4F6056F53CD2BFF6C0D4 /* Pods-Tests-DigitalOceanKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEEAD75C342DE7BFCD30CD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82326BAC50D52DE394671ABA /* Pods-DigitalOceanKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA25E8948A0A9C754C432176 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592A9017DA399688B8288598 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		231B0ACDF8A0EA6C24B7FF52 /* Pods-Tests-DigitalOceanKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E883C60B5E0AAE64ADC68F76 /* Build configuration list for PBXNativeTarget "Pods-Tests-DigitalOceanKit" */;
+			buildPhases = (
+				AC0D108D903274393C203913 /* Sources */,
+				3C9D7A3C5150CA47EB4FCDC1 /* Frameworks */,
+				E102A47CA812E64045850E68 /* Resources */,
+				9D4973360A3EE4E746676EBF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41A6014FC27015040119F24A /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-DigitalOceanKit";
+			productName = "Pods-Tests-DigitalOceanKit";
+			productReference = B6B106A5E33C7E2FAB40A997 /* DigitalOceanKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		34864BD37E5E31DE5EF9AEF9 /* Pods-DigitalOceanKit_Example-DigitalOceanKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B16249C4E881DA180DF622 /* Build configuration list for PBXNativeTarget "Pods-DigitalOceanKit_Example-DigitalOceanKit" */;
+			buildPhases = (
+				0C8F14C5F2EAC398A79E77E3 /* Sources */,
+				96FC8D0451282E81EECBFD24 /* Frameworks */,
+				87D00F2C7D660180D9DF3BCF /* Resources */,
+				FA25E8948A0A9C754C432176 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3B58D7D3731CA571AAD863C /* PBXTargetDependency */,
+			);
+			name = "Pods-DigitalOceanKit_Example-DigitalOceanKit";
+			productName = "Pods-DigitalOceanKit_Example-DigitalOceanKit";
+			productReference = 14803E06C225903C7ED675A4 /* DigitalOceanKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		351A7B733A4B90601147BB83 /* Pods-DigitalOceanKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E774D5DE12F03F97B4E50B5 /* Build configuration list for PBXNativeTarget "Pods-DigitalOceanKit_Example" */;
+			buildPhases = (
+				872003F12DDAFCC0FE3A1F4E /* Sources */,
+				C685926AF7D15F70CF9D79F9 /* Frameworks */,
+				CDEEAD75C342DE7BFCD30CD2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E5206EA6ACB00579819E1A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-DigitalOceanKit_Example";
+			productName = "Pods-DigitalOceanKit_Example";
+			productReference = 349B027FC83078940053D15A /* Pods_DigitalOceanKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5764F121CAAC57FFFA346AD6 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-DigitalOceanKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A9888BA59B6CE0E58D1C5FB /* Build configuration list for PBXNativeTarget "Pods-DigitalOceanKit_Example-DigitalOceanKit-DigitalOceanKit" */;
+			buildPhases = (
+				FAA8D17871F6806698A50E01 /* Sources */,
+				7703F1071BA10BEC0C3C9DD0 /* Frameworks */,
+				6555DFFAE6EA354333CAA024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DigitalOceanKit_Example-DigitalOceanKit-DigitalOceanKit";
+			productName = "Pods-DigitalOceanKit_Example-DigitalOceanKit-DigitalOceanKit";
+			productReference = BB990DD4145D05EAB710BFF8 /* DigitalOceanKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7741570EAD05F6223A0A3D84 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D510DD5DF553E4790EFC24 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				60A8EA66878444D0C2A68BC6 /* Sources */,
+				F0A330BAFADB6C33F1DE039F /* Frameworks */,
+				736FE215C84831E13A85A9A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5BC1965235D6A6E344FC1F /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 541AB881E9997213BB6AE9AE /* Pods_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD212B6511AC5C54F1DC4ADB /* Pods-Tests-DigitalOceanKit-DigitalOceanKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1ED589FB497348888AE147 /* Build configuration list for PBXNativeTarget "Pods-Tests-DigitalOceanKit-DigitalOceanKit" */;
+			buildPhases = (
+				3A62FD936D4FEFD8A8A491F6 /* Sources */,
+				400387F51544094E919D0A94 /* Frameworks */,
+				FCF2B91B659396955F622470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-DigitalOceanKit-DigitalOceanKit";
+			productName = "Pods-Tests-DigitalOceanKit-DigitalOceanKit";
+			productReference = 1277ABFB885813D7DCA00E01 /* DigitalOceanKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E37CB380D78A4A5F12C3487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = C5B42E966D0426EEF3140966 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A38FB3F22CE040513B11BAD;
+			productRefGroup = A665AC9467CA8D37AAE88DC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				351A7B733A4B90601147BB83 /* Pods-DigitalOceanKit_Example */,
+				34864BD37E5E31DE5EF9AEF9 /* Pods-DigitalOceanKit_Example-DigitalOceanKit */,
+				5764F121CAAC57FFFA346AD6 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-DigitalOceanKit */,
+				7741570EAD05F6223A0A3D84 /* Pods-Tests */,
+				231B0ACDF8A0EA6C24B7FF52 /* Pods-Tests-DigitalOceanKit */,
+				CD212B6511AC5C54F1DC4ADB /* Pods-Tests-DigitalOceanKit-DigitalOceanKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6555DFFAE6EA354333CAA024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D00F2C7D660180D9DF3BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE0C1339E9C031347E98473 /* DigitalOceanKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E102A47CA812E64045850E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDE7851A00CDDB99B7F5818 /* DigitalOceanKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF2B91B659396955F622470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C8F14C5F2EAC398A79E77E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297C0895C13C6E58D66CB240 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-dummy.m in Sources */,
+				8C6C8367151AC58CE306639C /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A62FD936D4FEFD8A8A491F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60A8EA66878444D0C2A68BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA00294452C11E3FBE2E9CF /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872003F12DDAFCC0FE3A1F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B232848EEF971911CBC98D /* Pods-DigitalOceanKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0D108D903274393C203913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBD499823DBB324A9C3C335 /* Pods-Tests-DigitalOceanKit-dummy.m in Sources */,
+				D42E2B021B037E5F75A39E68 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA8D17871F6806698A50E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E5206EA6ACB00579819E1A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DigitalOceanKit_Example-DigitalOceanKit";
+			target = 34864BD37E5E31DE5EF9AEF9 /* Pods-DigitalOceanKit_Example-DigitalOceanKit */;
+			targetProxy = D4E8F6490BAFCE14087F2DD9 /* PBXContainerItemProxy */;
+		};
+		41A6014FC27015040119F24A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-DigitalOceanKit-DigitalOceanKit";
+			target = CD212B6511AC5C54F1DC4ADB /* Pods-Tests-DigitalOceanKit-DigitalOceanKit */;
+			targetProxy = 473D4401B9CF0C5CF843F0AE /* PBXContainerItemProxy */;
+		};
+		A3B58D7D3731CA571AAD863C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DigitalOceanKit_Example-DigitalOceanKit-DigitalOceanKit";
+			target = 5764F121CAAC57FFFA346AD6 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-DigitalOceanKit */;
+			targetProxy = 5BD0FED81C98227CEA24EFB5 /* PBXContainerItemProxy */;
+		};
+		FA5BC1965235D6A6E344FC1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-DigitalOceanKit";
+			target = 231B0ACDF8A0EA6C24B7FF52 /* Pods-Tests-DigitalOceanKit */;
+			targetProxy = B1F504486CDFCC62936DD989 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EF2B46EF0A3A4780BD34501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD80089EBDB9AD40091E2AC /* Pods-DigitalOceanKit_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DigitalOceanKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DigitalOceanKit_Example/Pods-DigitalOceanKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DigitalOceanKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C9DAC860506725025D23B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3840E1090DBF372A4C2CC66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7E0859AC8D06EFB4E20780 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DigitalOceanKit_Example-DigitalOceanKit/Pods-DigitalOceanKit_Example-DigitalOceanKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DigitalOceanKit_Example-DigitalOceanKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DigitalOceanKit_Example-DigitalOceanKit/Pods-DigitalOceanKit_Example-DigitalOceanKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DigitalOceanKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42784D9295F58F67F667BA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF142AF0CC550C1DC066508 /* Pods-DigitalOceanKit_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DigitalOceanKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DigitalOceanKit_Example/Pods-DigitalOceanKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DigitalOceanKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		489428CFCF87632A91F9D9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490591BF018DD893436A47AA /* Pods-Tests-DigitalOceanKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DigitalOceanKit/Pods-Tests-DigitalOceanKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests-DigitalOceanKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests-DigitalOceanKit/Pods-Tests-DigitalOceanKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DigitalOceanKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CD325A9D722CE72A0C53A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD444FFD901F65CF7B6FF052 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84C1CA91C1AD540700228312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7E0859AC8D06EFB4E20780 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DigitalOceanKit_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DigitalOceanKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		85DDBD9AFF6D72A583C41911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7E0859AC8D06EFB4E20780 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DigitalOceanKit_Example-DigitalOceanKit/Pods-DigitalOceanKit_Example-DigitalOceanKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DigitalOceanKit_Example-DigitalOceanKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DigitalOceanKit_Example-DigitalOceanKit/Pods-DigitalOceanKit_Example-DigitalOceanKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DigitalOceanKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C5A23C9A475790F4727C477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B5FB57D5364A2A5470D64982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490591BF018DD893436A47AA /* Pods-Tests-DigitalOceanKit-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DigitalOceanKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BF9C2A11F97FB18A5CADD8AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490591BF018DD893436A47AA /* Pods-Tests-DigitalOceanKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DigitalOceanKit/Pods-Tests-DigitalOceanKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests-DigitalOceanKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests-DigitalOceanKit/Pods-Tests-DigitalOceanKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DigitalOceanKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC3BDB5013D4582E45442683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7E0859AC8D06EFB4E20780 /* Pods-DigitalOceanKit_Example-DigitalOceanKit-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DigitalOceanKit_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DigitalOceanKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EC20D9C146FAC0A3C0338514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490591BF018DD893436A47AA /* Pods-Tests-DigitalOceanKit-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DigitalOceanKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F08B4B46D2A523E8055B2172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66E51E78AB9CD7EEC35F37C /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A9888BA59B6CE0E58D1C5FB /* Build configuration list for PBXNativeTarget "Pods-DigitalOceanKit_Example-DigitalOceanKit-DigitalOceanKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C1CA91C1AD540700228312 /* Debug */,
+				DC3BDB5013D4582E45442683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88D510DD5DF553E4790EFC24 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08B4B46D2A523E8055B2172 /* Debug */,
+				6CD325A9D722CE72A0C53A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E774D5DE12F03F97B4E50B5 /* Build configuration list for PBXNativeTarget "Pods-DigitalOceanKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EF2B46EF0A3A4780BD34501 /* Debug */,
+				42784D9295F58F67F667BA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1ED589FB497348888AE147 /* Build configuration list for PBXNativeTarget "Pods-Tests-DigitalOceanKit-DigitalOceanKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC20D9C146FAC0A3C0338514 /* Debug */,
+				B5FB57D5364A2A5470D64982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5B42E966D0426EEF3140966 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5A23C9A475790F4727C477 /* Debug */,
+				2C9DAC860506725025D23B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E883C60B5E0AAE64ADC68F76 /* Build configuration list for PBXNativeTarget "Pods-Tests-DigitalOceanKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489428CFCF87632A91F9D9C3 /* Debug */,
+				BF9C2A11F97FB18A5CADD8AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B16249C4E881DA180DF622 /* Build configuration list for PBXNativeTarget "Pods-DigitalOceanKit_Example-DigitalOceanKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3840E1090DBF372A4C2CC66F /* Debug */,
+				85DDBD9AFF6D72A583C41911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E37CB380D78A4A5F12C3487 /* Project object */;
+}

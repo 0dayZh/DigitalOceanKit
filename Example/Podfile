@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DigitalOceanKit_Example', :exclusive => true do
+  pod "DigitalOceanKit", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "DigitalOceanKit", :path => "../"
+
+  
+end

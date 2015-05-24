@@ -1,0 +1,14 @@
+PODS:
+  - DigitalOceanKit (0.1.0)
+
+DEPENDENCIES:
+  - DigitalOceanKit (from `../`)
+
+EXTERNAL SOURCES:
+  DigitalOceanKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DigitalOceanKit: 705ca2f7cc26d7309f455b09b59736009ee36726
+
+COCOAPODS: 0.37.1
