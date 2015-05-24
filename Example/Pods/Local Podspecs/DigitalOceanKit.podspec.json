@@ -1,15 +1,14 @@
 {
   "name": "DigitalOceanKit",
   "version": "0.1.0",
-  "summary": "A short description of DigitalOceanKit.",
-  "description": "                       An optional longer description of DigitalOceanKit\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/DigitalOceanKit",
+  "summary": "A delightful framework for digital ocean in Objective-C.",
+  "homepage": "https://github.com/0dayZh/DigitalOceanKit",
   "license": "MIT",
   "authors": {
     "0dayZh": "0day.zh@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/DigitalOceanKit.git",
+    "git": "https://github.com/0dayZh/DigitalOceanKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -20,6 +19,12 @@
   "resource_bundles": {
     "DigitalOceanKit": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "AFNetworking": [
+
     ]
   }
 }
