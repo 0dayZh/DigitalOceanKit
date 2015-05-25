@@ -25,15 +25,15 @@ pod "DigitalOceanKit"
 - API
 	- [x] Account
 	- [x] Actions
-	- [] Domains
-	- [] Domain Records
-	- [] Droplets
-	- [] Droplet Actions
-	- [] Images
-	- [] Image Actions
-	- [] SSH Keys
-	- [] Regions
-	- [] Sizes
+	- [ ] Domains
+	- [ ] Domain Records
+	- [ ] Droplets
+	- [ ] Droplet Actions
+	- [ ] Images
+	- [ ] Image Actions
+	- [ ] SSH Keys
+	- [ ] Regions
+	- [ ] Sizes
 
 ## License
 
