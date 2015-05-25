@@ -20,6 +20,21 @@ it, simply add the following line to your Podfile:
 pod "DigitalOceanKit"
 ```
 
+## Features
+
+- API
+	- [x] Account
+	- [x] Actions
+	- [] Domains
+	- [] Domain Records
+	- [] Droplets
+	- [] Droplet Actions
+	- [] Images
+	- [] Image Actions
+	- [] SSH Keys
+	- [] Regions
+	- [] Sizes
+
 ## License
 
 DigitalOceanKit is available under the MIT license. See the LICENSE file for more info.
