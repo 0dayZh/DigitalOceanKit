@@ -12,4 +12,8 @@
 /// Account API
 #define kAPI_Account_GetAccount @"%@/account"
 
+/// Action API
+#define kAPI_Action_ListActions @"%@/actions"
+#define kAPI_Action_GetAction   @"%@/actions/%d"
+
 #endif
