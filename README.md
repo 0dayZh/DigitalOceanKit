@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/DigitalOceanKit.svg?style=flat)](http://cocoapods.org/pods/DigitalOceanKit)
 [![Platform](https://img.shields.io/cocoapods/p/DigitalOceanKit.svg?style=flat)](http://cocoapods.org/pods/DigitalOceanKit)
 
+## API
+
+https://developers.digitalocean.com/documentation/v2/
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
